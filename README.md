@@ -69,7 +69,7 @@ Este monorepo demonstra uma arquitetura de **micro-frontends (React + Vite + Mod
                         |
                         v
       +-----------------------------------------+
-      |  OpenWeatherMap API        |
+      |  OpenWeatherMap API                     |
       +-----------------------------------------+
 ```
 
@@ -295,4 +295,4 @@ npm run start:prod
 
 ## Licença
 
-MIT.
+MIT License.
