@@ -5,7 +5,7 @@ import { useGeolocation } from "@/hooks/useGeolocation";
 import { WeatherService } from "@/services/weather/weather.service";
 
 export const useWeatherModel = () => {
-	const [searchQuery, setSearchQuery] = useState("Osasco");
+	const [searchQuery, setSearchQuery] = useState("");
 	const {
 		isGeolocationLoading,
 		error: geoError,
