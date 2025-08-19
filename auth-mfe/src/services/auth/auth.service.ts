@@ -16,10 +16,6 @@ export class AuthService implements IAuthService {
 		const response = await api.post(this.apiPath + "/login", dto);
 
 		return response.data;
-		// try {
-		// } catch (error) {
-		// 	throw new Error(error?.response?.data);
-		// }
 	}
 
 	async register(dto: RegisterRequestDto): Promise<RegisterResponseDto> {
