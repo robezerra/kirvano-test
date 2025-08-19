@@ -285,6 +285,7 @@ npm run start:prod
 
 ## Roadmap / Próximos passos
 
+- [ ] Criar uma biblioteca de componentes para ter consistência de entre os micro-frontends.
 - [ ] JWT: aplicar cookies HTTP‑only + SameSite/secure; renovar tokens com refresh tokens.
 - [ ] Definir uma política de renovação de cache.
 - [ ] Observabilidade (métricas e tracing distribuído).
